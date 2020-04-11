@@ -1,0 +1,72 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.delete-btn {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: none;
+    color: red;
+    position: absolute;
+    right: 5px;
+}
+
+.btn-spans {
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+}
+
+span.btn-spans span:first-child{
+margin-right: 10px;
+}
+
+span.btn-spans span:first-child a{
+    color: green;
+}
+
+span.btn-spans span:last-child a{
+    color: red;
+}
+
+span.product-head-title{
+    color: darkgreen;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+a.remove-option{
+    color: red;
+}
+
+a.activate-image-upload{
+    display: block;
+    pointer-events: none;
+}
+
+a.activate-image-upload:hover{
+    cursor: pointer;
+}
+
+
+.image-card-upload{
+
+}
+
+input.image-file-upload{
+
+    opacity: 0;
+
+}
+
+
